@@ -1,0 +1,25 @@
+a:link {
+  color: #e48518;
+}
+
+.page_heading {
+  font-size: 3.2rem;
+  color: #e48518;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section > article {
+  background-color: #e48518;
+  margin: 10;
+}
+
+section > article.is-active {
+  display: block;
+  background-color: #7a0e13;
+}
+/*# sourceMappingURL=index.css.map */

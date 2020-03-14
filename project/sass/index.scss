@@ -1,0 +1,27 @@
+$brand-blue: #e48518; // variables 
+
+a:link {
+  color: $brand-blue; //reusing variables 
+}
+
+.page_heading {
+  font-size: 1.6rem * 2; //arithmetic is possible
+  color:$brand-blue;
+}
+
+section {
+  display: flex;
+
+  > article {
+    background-color: $brand-blue;
+    margin:10;
+
+
+    &.is-active {
+      display:block;
+      background-color: rgb(122, 14, 19);
+    }
+  }
+
+  
+}
